@@ -1,0 +1,13 @@
+{
+  "include": [
+    "**/*.js",
+    "**/*.ts",
+    "**/*.svelte"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": true,
+    "strict": true
+  }
+}

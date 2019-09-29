@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "alias": "littlemooon.com",
+  "env": {
+    "API_TOKEN": "@api_token",
+    "API_URL": "@api_url"
+  },
+  "build": {
+    "env": {
+      "API_TOKEN": "@api_token",
+      "API_URL": "@api_url"
+    }
+  },
+  "builds": [{
+    "src": "package.json",
+    "use": "now-sapper"
+  }]
+}

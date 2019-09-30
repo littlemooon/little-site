@@ -1,5 +1,5 @@
 {
-  "name": "littlemooon",
+  "name": "little-site",
   "version": "1.0.0",
   "description": "littlemooon.com website",
   "author": "fredwright0@gmail.com",
@@ -20,7 +20,7 @@
     "check": "npx npm-check -u",
     "deploy": "now -e SAPPER_TIMESTAMP=$(date +%s%3N)",
     "deploy:prod": "now --prod -e SAPPER_TIMESTAMP=$(date +%s%3N)",
-    "logs": "now logs -f littlemooon.littlemooon.now.sh"
+    "logs": "now logs -f little-site.littlemooon.now.sh"
   },
   "browserslist": [
     "last 3 version"
@@ -75,12 +75,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/littlemooon/littlemooon.git"
+    "url": "git+https://github.com/little-site/little-site.git"
   },
   "bugs": {
-    "url": "https://github.com/littlemooon/littlemooon/issues"
+    "url": "https://github.com/little-site/little-site/issues"
   },
-  "homepage": "https://github.com/littlemooon/littlemooon#readme",
+  "homepage": "https://github.com/little-site/little-site#readme",
   "eslintConfig": {
     "env": {
       "node": true,
@@ -106,8 +106,7 @@
       "@typescript-eslint/explicit-function-return-type": "off",
       "@typescript-eslint/no-explicit-any": "off"
     },
-    "overrides": [
-      {
+    "overrides": [{
         "files": [
           "**/*.svelte"
         ],

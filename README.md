@@ -1,9 +1,8 @@
-# littlebox
+# little-site
 
-Reusable functions and littlemooon site
+Littlemooon.com site
 
 Built with:
-[typescript](http://www.typescriptlang.org/)
 [zeit now](https://zeit.co)
 [svelte](https://svelte.dev/)
 [sapper](https://sapper.svelte.dev/)
@@ -26,7 +25,7 @@ npm run check
 
 ## Deployment
 
-Deployed to [now](https://zeit.co/littlemooon/littlebox)
+Deployed to [now](https://zeit.co/littlemooon/little-site)
 
 ```bash
 npm i -g now

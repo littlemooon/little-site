@@ -3,7 +3,7 @@
 </script>
 
 {#if segment !== undefined}
-  <header class="flex items-center pt-4">
+  <header class="flex items-center py-4">
     <img alt="moon logo" src="mooon_small.svg" />
     <h1 class="text-4xl ml-2 font-thin">littlemooon</h1>
   </header>

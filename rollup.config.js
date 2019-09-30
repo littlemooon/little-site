@@ -10,7 +10,6 @@ import pkg from './package.json'
 import getPreprocessor from 'svelte-preprocess'
 import postcss from 'rollup-plugin-postcss'
 import PurgeSvelte from 'purgecss-from-svelte'
-import typescript from 'rollup-plugin-typescript2'
 import path from 'path'
 import * as dotenv from 'dotenv'
 
@@ -72,9 +71,6 @@ export default {
     input: config.client.input(),
     output: config.client.output(),
     plugins: [
-      typescript({
-        typescript: require('typescript'),
-      }),
       replace({
         'process.browser': true,
         'process.env.NODE_ENV': JSON.stringify(mode),
@@ -129,9 +125,6 @@ export default {
     input: config.server.input(),
     output: config.server.output(),
     plugins: [
-      typescript({
-        typescript: require('typescript'),
-      }),
       replace({
         'process.browser': false,
         'process.env.NODE_ENV': JSON.stringify(mode),

@@ -1,6 +1,7 @@
 <script>
   import { monitor } from '../stores.js'
   import { onMount } from 'svelte'
+  import Heading from '../components/Heading.svelte'
 
   let loading
 
@@ -21,8 +22,8 @@
 </script>
 
 <section>
-  <div class="flex items-baseline text-indigo-700 text-xl font-semibold my-4">
-    <h2>network monitor</h2>
+  <div class="flex items-baseline">
+    <Heading>network monitor</Heading>
     {#if loading}
       <p>...</p>
     {/if}
